@@ -9,9 +9,9 @@ struct node {
   struct node *left, *right;
 } * root;
 
-void inorder(root);
-void preorder(root);
-void postorder(root);
+void inorder(struct node *ptr);
+void preorder(struct node *ptr);
+void postorder(struct node *ptr);
 
 void main() {
   int choice, item;
